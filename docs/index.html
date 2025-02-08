@@ -3,15 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenKVDR Repository</title>
+    <title>OpenKVDR Documentation</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-        h1 { color: #333; }
-        p { font-size: 18px; }
+        body {
+            font-family: "Courier New", monospace;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .content {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        pre {
+            background: #eee;
+            padding: 10px;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
-    <h1>OpenKVDR Repository</h1>
-    <p>Welcome to the OpenKVDR official repository. Here you will find all releases, updates, and documentation.</p>
+    <div class="content">
+        <h1>OpenKVDR Documentation</h1>
+        <p>Welcome to the official documentation for OpenKVDR, an advanced GPU renderer.</p>
+
+        <h2>📌 Introduction</h2>
+        <p>OpenKVDR (Open Kallos Video & Display Renderer) is a **GPU-based** rendering engine for images and videos. It supports:</p>
+        <ul>
+            <li>💡 Ray tracing</li>
+            <li>🎨 Advanced shading techniques</li>
+            <li>📸 High-resolution rendering</li>
+            <li>📜 Open-source architecture</li>
+        </ul>
+
+        <h2>🛠 Installation</h2>
+        <p>Install OpenKVDR on Linux:</p>
+        <pre>
+sudo apt update
+sudo apt install openkvdr
+        </pre>
+        <p>On Windows, download the installer from the <a href="https://github.com/kallos3d/openkvdr-repo/releases">GitHub Releases</a>.</p>
+
+        <h2>🚀 Quick Start</h2>
+        <p>Run OpenKVDR from the command line:</p>
+        <pre>
+openkvdr --help
+openkvdr render scene.kvdr
+        </pre>
+
+        <h2>🔬 Rendering Modes</h2>
+        <p>OpenKVDR supports multiple rendering techniques:</p>
+        <ul>
+            <li><strong>Rasterization</strong>: Fast real-time rendering.</li>
+            <li><strong>Ray Tracing</strong>: High-quality physically based rendering.</li>
+            <li><strong>Path Tracing</strong>: Advanced global illumination.</li>
+        </ul>
+
+        <h2>📜 Configuration</h2>
+        <p>The configuration file (`openkvdr.conf`) allows fine-tuning of rendering parameters:</p>
+        <pre>
+[Renderer]
+Mode = PathTracing
+Samples = 256
+Resolution = 1920x1080
+        </pre>
+
+        <h2>📚 API Reference</h2>
+        <p>OpenKVDR includes a powerful API:</p>
+        <pre>
+#include "openkvdr.h"
+
+KVDR_Renderer renderer;
+renderer.loadScene("scene.kvdr");
+renderer.render();
+        </pre>
+
+        <h2>🔗 Links</h2>
+        <ul>
+            <li><a href="https://github.com/kallos3d/openkvdr-repo">GitHub Repository</a></li>
+            <li><a href="https://kallos3d.github.io/openkvdr-repo/">Online Documentation</a></li>
+            <li><a href="https://github.com/kallos3d/openkvdr-repo/issues">Report Issues</a></li>
+        </ul>
+
+        <h2>📜 License</h2>
+        <p>OpenKVDR is licensed under the MIT License.</p>
+    </div>
 </body>
 </html>
