@@ -1,0 +1,9 @@
+Package: openkvdr
+Version: 1.1.0
+Section: graphics
+Priority: optional
+Architecture: amd64
+Depends: libx11-6, libgl1-mesa-glx
+Maintainer: Kallos Foundation <kallos.devs@gmail.com>
+Description: OpenKVDR CLI Renderer
+ OpenKVDR is a Professional Renderer in Linux and Windows

@@ -1,0 +1,9 @@
+Package: openkvdr
+Version: 1.1.0
+Section: graphics
+Priority: optional
+Architecture: amd64
+Depends: libc6 (>= 2.31), libstdc++6 (>= 10), libgl1-mesa-glx, libx11-6
+Maintainer: Kallos Foundation <kallos.devs@gmail.com>
+Description: OpenKVDR - Open source GPU renderer
+ OpenKVDR is a high-performance GPU renderer for Linux.
