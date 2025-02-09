@@ -17,7 +17,7 @@ Supports **images (BMP, PNG, JPG)** and **videos (MP4, AVI)**.
 
 ## 🌐 Website
 Check out our official website for more information:  
-[**kallosproject.github.io**](https://kallosproject.github.io)
+[**kallos3d.github.io**](https://kallos3d.github.io)
 
 ## 🛠 Installation
 ### **Linux & Windows (MinGW)**
