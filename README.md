@@ -15,6 +15,10 @@ Supports **images (BMP, PNG, JPG)** and **videos (MP4, AVI)**.
 - **CLI shell with `load`, `shader`, `display` commands**
 - **Frame rendering for real-time display processing**
 
+## 🌐 Website
+Check out our official website for more information:  
+[**kallosproject.github.io**](https://kallosproject.github.io)
+
 ## 🛠 Installation
 ### **Linux & Windows (MinGW)**
 ```sh
@@ -22,8 +26,3 @@ git clone https://github.com/kallos/openkvdr.git
 cd openkvdr
 make
 ./openkvdr
-
-## 🌐 Website
-- ** You Can Visit the official Kallos website at
-```sh
-kallos3d.github.io             
